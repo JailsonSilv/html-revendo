@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revendo</title>
+</head>
+<body>
+    <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, iusto pariatur, unde rerum dolorem animi velit praesentium minus labore magnam quae. <br> Dolorum natus voluptate magni praesentium explicabo quis similique non
+    </h1>
+    <p>
+        Omnis illum rerum similique, error voluptate delectus, atque optio quisquam animi exercitationem.
+    </p>
+
+    <hr>
+
+    <ol start="a" type="I">
+        <li>Teste</li>
+        <li>Teste</li>
+        <li>Teste</li>
+    </ol>
+    <ul  style="list-style-type: square">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <p>Veja mais na <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" > <strong>Documentação</strong> </a>HTML</p>
+
+    <hr>
+
+    <h2 style="color: rgb(255, 102, 0);">Logo HTML</h2>
+    <img 
+        src="./image/html5.png" 
+        alt="Logo do html"
+        height="220px" width="220px"
+        longdesc="./image/html5.png"
+        style="cursor: pointer;"
+    >
+
+    <hr>
+
+    <h3 style="color: rgba(57, 57, 220, 0.66);">Video com html</h3>
+    <video 
+        src="./video/videogabi.mp4"
+        controls loop muted 
+        height="440px" width="500px"
+        >
+        Veja o video
+    </video>
+
+    <hr>
+
+    <h2>Tabelas</h2>
+    <table>
+        <h2>Tabela Brasileirão 2060</h2>
+        <tr>
+            <td>Flamengo  </td>
+            <td> 95</td>
+        </tr>
+        <tr>
+            <td>Londrina </td>
+            <td> 53</td>
+        </tr>
+        <tr>
+            <td>Palmeiras </td>
+            <td> 45</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form action="./formulario.html" method="get">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <label for="senha">Senha: </label>
+        <input type="password" name="password" id="password" required>
+        <label for="idade">Idade: </label>
+        <input type="number" name="number" id="number" min="16" max="95" required> 
+
+        <label for="licenca">Licença</label>
+        <span>Eu concordo com todos os termos ....</span>
+        <input type="radio" name="licenca" id="licenca">
+        <span>Não concordo</span>
+        <input type="radio" name="licenca">
+
+        <button style="cursor:pointer;" type="reset">Reset</button>
+        <button style="cursor: pointer;" type="submit">Enviar</button>
+    </form>
+
+    <h2>Iframe</h2>
+    <iframe 
+        style="width:500px;" height="250px"
+        src="https://tableless.github.io/iniciantes/manual/html/" frameborder="0">Um guia para iniciantes na área de web 
+        >
+    </iframe>
+
+</html>
